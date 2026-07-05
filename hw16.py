@@ -1,0 +1,10 @@
+import math
+degrees = int(input("Enter the angle in degrees: "))
+radians = math.radians(degrees)
+sine = math.sin(radians)
+cosine = math.cos(radians)
+tangent = math.tan(radians)
+print(f"Angle : {degrees}°")
+print(f"Sine : {sine}")
+print(f"Cosine : {cosine}")
+print(f"Tangent : {tangent}")
